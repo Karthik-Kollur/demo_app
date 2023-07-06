@@ -1,7 +1,6 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
 import 'cart_model.dart';
 import 'db_helper.dart';
 

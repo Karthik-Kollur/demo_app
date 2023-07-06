@@ -1,11 +1,7 @@
-
 import 'package:demo_app/product_list.dart';
-import 'package:demo_app/shared/constants.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/foundation.dart';
 import 'package:provider/provider.dart';
-
 import 'auth/login_page.dart';
 import 'cart_provider.dart';
 import 'helper/helper_function.dart';

@@ -1,8 +1,5 @@
-import 'package:badges/badges.dart';
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 import 'cart_model.dart';
 import 'cart_provider.dart';
 import 'db_helper.dart';

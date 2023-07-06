@@ -1,11 +1,10 @@
 import 'package:demo_app/product_list.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-
 import '../helper/helper_function.dart';
 import '../service/auth_service.dart';
 import '../widggets/widgets.dart';
-import 'home_page.dart';
+
 import 'login_page.dart';
 
 class RegisterPage extends StatefulWidget {

@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:badges/badges.dart';
 import 'package:demo_app/favorite_page.dart';
 import 'package:demo_app/profile_page.dart';
@@ -223,37 +222,45 @@ class _ProductListScreenState extends State<ProductListScreen> {
             // SizedBox(height: 220.0,),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Container(
-                height: 100.0,
-                width: 200.0,
-                decoration: BoxDecoration(
-                  color: Colors.black,
-                  borderRadius: BorderRadius.circular(25.0),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.only(right: 30.0),
-                  child: Row(
-                    children: [
-                      isImageSelected
-                          ? CircleAvatar(
-                        radius: 45.0,
-                        backgroundImage: FileImage(selectedImage!),
-                      )
-                          : Expanded(child: profilePic()),
-                      SizedBox(width: 10.0),
-                      Flexible(
-                        child: Text(
-                          userName,
-                          overflow: TextOverflow.clip,
-                          textAlign: TextAlign.center,
-                          style: const TextStyle(
-                            fontWeight: FontWeight.bold,
-                            color: Colors.white,
-                            fontSize: 20.0,
+              child: GestureDetector(
+                onTap: (){
+                  setState(() {
+                    Navigator.pop(context);
+                    selectedIndex=3;
+                  });
+                },
+                child: Container(
+                  height: 100.0,
+                  width: 200.0,
+                  decoration: BoxDecoration(
+                    color: Colors.black,
+                    borderRadius: BorderRadius.circular(25.0),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.only(right: 30.0),
+                    child: Row(
+                      children: [
+                        isImageSelected
+                            ? CircleAvatar(
+                          radius: 45.0,
+                          backgroundImage: FileImage(selectedImage!),
+                        )
+                            : Expanded(child: profilePic()),
+                        SizedBox(width: 10.0),
+                        Flexible(
+                          child: Text(
+                            userName,
+                            overflow: TextOverflow.clip,
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                              fontSize: 20.0,
+                            ),
                           ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ),
               ),
