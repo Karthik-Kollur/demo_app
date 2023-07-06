@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "333992141279",
+    "project_id": "pharmacy-14ead",
+    "storage_bucket": "pharmacy-14ead.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333992141279:android:f433fdfbfa492c2069e46a",
+        "android_client_info": {
+          "package_name": "com.example.demo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333992141279-vkqljmfm3rn7tq1ics6iug86u85cduku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV5q58jjIaU28A_oFKPGaDDC4_NAtAFFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333992141279-vkqljmfm3rn7tq1ics6iug86u85cduku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
